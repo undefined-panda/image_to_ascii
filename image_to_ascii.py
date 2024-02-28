@@ -35,5 +35,5 @@ if __name__ == "__main__":
     image = "Luffi.jpg"
     type = image[-3:]
     ascii = "image[:-4].txt"
-    scale = 3
+    scale = 1
     convert_to_ascii(image, ascii, scale, type)
